@@ -37,9 +37,19 @@
 			-webkit-text-stroke: 3px #000;
 			color: #ffe69a;
 			text-transform: capitalize;
+			@include below-567 {
+				font-size: 4rem;
+				-webkit-text-stroke: 0px #000;
+				color: #000;
+				line-height: 5.5rem;
+			}
 			span {
 				-webkit-text-stroke: 0px #000;
 				color: #000;
+				@include below-567 {
+					-webkit-text-stroke: 3px #000;
+					color: #ffe69a;
+				}
 			}
 		}
 		button {

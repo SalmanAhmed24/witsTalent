@@ -6,6 +6,9 @@
 		margin: 0;
 		color: #fbb582;
 		font-weight: 900;
+		@include below-567 {
+			font-size: 3.5rem;
+		}
 	}
 	p {
 		font-size: 2rem;
