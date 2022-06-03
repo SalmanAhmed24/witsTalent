@@ -1,0 +1,74 @@
+.header-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #ffe69a;
+	padding: 8rem 6rem;
+	.content-wrap {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		@include below-992 {
+			width: 100%;
+		}
+		h3 {
+			font-size: 3rem;
+			font-weight: 500;
+			position: relative;
+			margin: 0;
+			&::before {
+				content: '';
+				width: 30px;
+				height: 5px;
+				border-radius: 10px;
+				position: absolute;
+				top: 0;
+				background: #000;
+				bottom: 0;
+				margin: auto 0;
+				left: -35px;
+			}
+		}
+		h1 {
+			font-size: 7rem;
+			margin: 0;
+			font-weight: 900;
+			line-height: 8.5rem;
+			-webkit-text-stroke: 3px #000;
+			color: #ffe69a;
+			text-transform: capitalize;
+			span {
+				-webkit-text-stroke: 0px #000;
+				color: #000;
+			}
+		}
+		button {
+			margin-top: 2rem;
+			align-self: flex-start;
+			padding: 5px 20px;
+			font-size: 2.5rem;
+			font-weight: 400;
+			background-color: #000;
+			color: #fff;
+			transition: 0.3s ease-in-out;
+			border-radius: 5px;
+			&:hover {
+				cursor: pointer;
+				transform: rotate(-10deg);
+			}
+		}
+	}
+	.hero-img-wrap {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		@include below-992 {
+			display: none;
+		}
+		img {
+			width: 80%;
+		}
+	}
+}
