@@ -17,7 +17,7 @@ function About() {
 						<img src="./images/d-local.svg" alt="D-Local" />
 					</li>
 					<li>
-						<img src="./images/intercom.svg" alt="Intercom" />
+						<img src="./images/inter.svg" alt="Intercom" />
 					</li>
 					<li>
 						<img src="./images/Mercury.svg" alt="Mercury" />
