@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 function About() {
 	return (
 		<main className="about-wrap">
