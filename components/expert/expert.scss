@@ -52,7 +52,10 @@
 		justify-content: flex-end;
 		@include below-992 {
 			width: 100%;
-			justify-content: center;
+			justify-content: flex-end;
+			img {
+				width: 70%;
+			}
 		}
 	}
 }
