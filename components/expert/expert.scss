@@ -1,0 +1,58 @@
+.expert-wrap {
+	padding: 6rem 0rem 0rem 0rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	.content-wrap {
+		width: 49%;
+		padding-left: 6rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		@include below-992 {
+			width: 100%;
+			padding-right: 6rem;
+		}
+		h1 {
+			font-size: 4rem;
+			line-height: 4rem;
+			margin: 0px;
+		}
+		h4 {
+			font-size: 2rem;
+			font-weight: 300;
+			margin: 0px;
+			margin-top: 1rem;
+			color: #a7bc8a;
+		}
+		p {
+			font-size: 1.6rem;
+		}
+		button {
+			align-self: flex-start;
+			font-weight: 600;
+			text-transform: capitalize;
+			transition: 0.3s ease-in-out;
+			background: #909cc2;
+			color: #fff;
+			border: 1px solid #909cc2;
+			border-radius: 5px;
+			padding: 5px 20px;
+			font-size: 1.8rem;
+			&:hover {
+				cursor: pointer;
+				color: #909cc2;
+				background: #fff;
+			}
+		}
+	}
+	.img-wrap {
+		width: 49%;
+		display: flex;
+		justify-content: flex-end;
+		@include below-992 {
+			width: 100%;
+			justify-content: center;
+		}
+	}
+}

@@ -1,19 +1,25 @@
 import Head from 'next/head';
 import About from '../components/about/about';
+import Expert from '../components/expert';
+import Generation from '../components/generationSec';
 import Header from '../components/header/header';
+import Results from '../components/results';
 export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>WitsTalent | Hiring Top 1%</title>
+				<title>StaffHunter | Hiring Top 1%</title>
 				<meta
 					name="description"
-					content="WitsTalent is an online platform which joins Big companies with Top 1% Talent all around the world."
+					content="StaffHunter is an online platform which joins Big companies with Top 1% Talent all around the world."
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header />
 			<About />
+			<Generation />
+			<Results />
+			<Expert />
 		</div>
 	);
 }

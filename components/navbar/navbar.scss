@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	background-color: #ffe69a;
+	background-color: #ffead0;
 	.logo-wrap {
 		width: 20%;
 		display: flex;
@@ -11,8 +11,9 @@
 			font-size: 4rem;
 			font-weight: 700;
 			margin: 0px;
+			color: #2d3142;
 			span {
-				-webkit-text-stroke: 1px #000;
+				-webkit-text-stroke: 1px #2d3142;
 				color: #fff;
 			}
 		}
@@ -37,6 +38,7 @@
 				transition: 0.3s ease-in-out;
 				position: relative;
 				overflow: hidden;
+				color: #2d3142;
 				@include from-1200-onwards {
 					font-size: 2rem;
 					margin-right: 5rem;
@@ -49,7 +51,7 @@
 					&::after {
 						content: '';
 						position: absolute;
-						background-color: #000;
+						background-color: #2d3142;
 						border-radius: 10px;
 						animation-name: showBorder;
 						animation-duration: 0.5s;
@@ -68,7 +70,7 @@
 	.navbar-btn-wrap {
 		width: 20%;
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-end;
 		@include below-992 {
 			display: none;
 		}
@@ -80,6 +82,7 @@
 			transition: 0.3s ease-in-out;
 			align-self: center;
 			position: relative;
+			color: #2d3142;
 			@include from-1200-onwards {
 				font-size: 2rem;
 			}
@@ -88,7 +91,7 @@
 				&::after {
 					content: '';
 					position: absolute;
-					background-color: #000;
+					background-color: #2d3142;
 					border-radius: 10px;
 					animation-name: showBorder;
 					animation-duration: 0.5s;
@@ -107,9 +110,9 @@
 			font-weight: 600;
 			text-transform: capitalize;
 			transition: 0.3s ease-in-out;
-			background: #2ab8c5;
+			background: #909cc2;
 			color: #fff;
-			border: 1px solid #2ab8c5;
+			border: 1px solid #909cc2;
 			border-radius: 5px;
 			align-self: center;
 			padding: 5px 20px;
@@ -119,7 +122,7 @@
 			&:hover {
 				cursor: pointer;
 				background-color: #fff;
-				color: #2ab8c5;
+				color: #909cc2;
 			}
 		}
 	}
@@ -139,7 +142,7 @@
 			font-weight: 700;
 			margin: 0px;
 			span {
-				-webkit-text-stroke: 1px #000;
+				-webkit-text-stroke: 1px #2d3142;
 				color: #fff;
 			}
 		}
@@ -171,7 +174,7 @@
 					&::after {
 						content: '';
 						position: absolute;
-						background-color: #000;
+						background-color: #2d3142;
 						border-radius: 10px;
 						animation-name: showBorder;
 						animation-duration: 0.5s;
@@ -207,7 +210,7 @@
 				&::after {
 					content: '';
 					position: absolute;
-					background-color: #000;
+					background-color: #2d3142;
 					border-radius: 10px;
 					animation-name: showBorder;
 					animation-duration: 0.5s;
@@ -226,16 +229,16 @@
 			font-weight: 600;
 			text-transform: capitalize;
 			transition: 0.3s ease-in-out;
-			background: #2ab8c5;
+			background: #909cc2;
 			color: #fff;
-			border: 1px solid #2ab8c5;
+			border: 1px solid #909cc2;
 			border-radius: 5px;
 			align-self: center;
 			padding: 5px 20px;
 			&:hover {
 				cursor: pointer;
 				background-color: #fff;
-				color: #2ab8c5;
+				color: #909cc2;
 			}
 		}
 	}
@@ -299,7 +302,7 @@
 			&::after {
 				content: '';
 				position: absolute;
-				background-color: #000;
+				background-color: #2d3142;
 				border-radius: 10px;
 				animation-name: showBorder;
 				animation-duration: 0.5s;

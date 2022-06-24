@@ -1,7 +1,7 @@
 .header-wrap {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #ffe69a;
+	background-color: #ffead0;
 	padding: 8rem 6rem;
 	.content-wrap {
 		width: 50%;
@@ -23,7 +23,7 @@
 				border-radius: 10px;
 				position: absolute;
 				top: 0;
-				background: #000;
+				background: #2d3142;
 				bottom: 0;
 				margin: auto 0;
 				left: -35px;
@@ -34,20 +34,20 @@
 			margin: 0;
 			font-weight: 900;
 			line-height: 8.5rem;
-			-webkit-text-stroke: 3px #000;
-			color: #ffe69a;
+			-webkit-text-stroke: 3px #2d3142;
+			color: #ffead0;
 			text-transform: capitalize;
 			@include below-567 {
 				font-size: 4rem;
-				-webkit-text-stroke: 0px #000;
-				color: #000;
+				-webkit-text-stroke: 0px #2d3142;
+				color: #2d3142;
 				line-height: 5.5rem;
 			}
 			span {
-				-webkit-text-stroke: 0px #000;
-				color: #000;
+				-webkit-text-stroke: 0px #2d3142;
+				color: #2d3142;
 				@include below-567 {
-					-webkit-text-stroke: 3px #000;
+					-webkit-text-stroke: 3px #2d3142;
 					color: #ffe69a;
 				}
 			}
@@ -58,10 +58,11 @@
 			padding: 5px 20px;
 			font-size: 2.5rem;
 			font-weight: 400;
-			background-color: #000;
+			background-color: #909cc2;
 			color: #fff;
 			transition: 0.3s ease-in-out;
 			border-radius: 5px;
+			border: 1px solid #909cc2;
 			&:hover {
 				cursor: pointer;
 				transform: rotate(-10deg);

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 function About() {
 	return (
 		<main className="about-wrap">
-			<h1>Join thousands of companies that trust WitsTalent to hire, pay and manage their global team</h1>
+			<h1>Join thousands of companies that trust StaffHunter to hire, pay and manage their global team</h1>
 			<p>
-				WitsTalent has everything you need to compliantly hire, pay and manage contractors and employees in 150
+				StaffHunter has everything you need to compliantly hire, pay and manage contractors and employees in 150
 				countries. Think onboarding, contracts, expense management, benefits, payroll and built-in compliance
 				for your international team.
 			</p>

@@ -8,7 +8,7 @@ function Header() {
 				<h1>
 					Connect Silicon Valley Companies With <span>Top 1%</span> Talent
 				</h1>
-				<button>Get Started</button>
+				<button>Book a call</button>
 			</section>
 			<section className="hero-img-wrap">
 				<img src="./images/hero.png" />

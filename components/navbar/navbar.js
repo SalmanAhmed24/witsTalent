@@ -24,7 +24,7 @@ function Navbar() {
 		<nav className={Math.ceil(scrollPosition) < 100 ? 'navbar-wrap' : 'navbar-wrap-fixed scroll-navbar'}>
 			<section className="logo-wrap">
 				<h1 className="logo">
-					Wits<span>Talent.</span>
+					Staff<span>Hunter.</span>
 				</h1>
 			</section>
 			<section className="navbar-link-wrap">
@@ -36,8 +36,8 @@ function Navbar() {
 				</ul>
 			</section>
 			<section className="navbar-btn-wrap">
-				<p>Login</p>
-				<button>Join Us</button>
+				{/* <p>Login</p> */}
+				<button>Book a call</button>
 			</section>
 			<section className="toggleWrap">
 				<MenuIcon className="toggle" onClick={toggleDrawer} sx={{ fontSize: 30 }} />
