@@ -1,7 +1,6 @@
 function Results() {
 	return (
 		<main className="result-wrap">
-			<img className="back" src="images/ads.svg" />
 			<section className="heading-wrap">
 				<h1>We Will Take Care Of The Results</h1>
 			</section>

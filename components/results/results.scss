@@ -1,16 +1,6 @@
 .result-wrap {
 	padding: 6rem;
 	position: relative;
-	.back {
-		position: absolute;
-		bottom: -100px;
-		left: 0px;
-		height: 400px;
-		z-index: -1;
-		@include below-992 {
-			display: none;
-		}
-	}
 	.heading-wrap {
 		h1 {
 			width: 100%;
@@ -25,7 +15,7 @@
 		justify-content: space-between;
 		flex-wrap: wrap;
 		.card-cus {
-			background: rgba($color: #ffff, $alpha: 0.5);
+			background: rgba($color: #909cc2, $alpha: 0.5);
 			backdrop-filter: blur(5px);
 			border-radius: 5px;
 			height: 200px;
