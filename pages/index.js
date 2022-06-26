@@ -14,6 +14,11 @@ export default function Home() {
 					content="StaffHunter is an online platform which joins Big companies with Top 1% Talent all around the world."
 				/>
 				<link rel="icon" href="/favicon.ico" />
+				<link
+					href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+					rel="stylesheet"
+				/>
+				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 			</Head>
 			<Header />
 			<About />
