@@ -1,3 +1,4 @@
+@import 'aos/dist/aos.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @mixin from-1200-onwards {
 	@media screen and (min-width: 1199.67px) {
@@ -25,7 +26,7 @@
 	}
 }
 * {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: 'Poppins' !important;
 }
 html,
 body {
@@ -33,7 +34,7 @@ body {
 	background-color: #2d3142;
 	padding: 0;
 	margin: 0;
-	font-family: 'Poppins', sans-serif !important;
+	font-family: 'Poppins' !important;
 	font-size: 10px;
 	@include below-567 {
 		font-size: 8px;
@@ -65,4 +66,3 @@ a {
 @import '../components/generationSec/generation.scss';
 @import '../components/expert/expert.scss';
 @import '../components/results/results.scss';
-@import 'aos/dist/aos.css';
