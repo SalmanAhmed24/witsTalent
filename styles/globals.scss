@@ -60,10 +60,10 @@ a {
 * {
 	box-sizing: border-box;
 }
-@import 'aos/dist/aos.css';
 @import '../components/navbar/navbar.scss';
 @import '../components/header/header.scss';
 @import '../components/about/about.scss';
 @import '../components/generationSec/generation.scss';
 @import '../components/expert/expert.scss';
 @import '../components/results/results.scss';
+@import 'aos/dist/aos.css';
