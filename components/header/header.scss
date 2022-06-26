@@ -1,7 +1,7 @@
 .header-wrap {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #ffead0;
+	background-color: #2d3142;
 	padding: 8rem 6rem;
 	.content-wrap {
 		width: 50%;
@@ -23,7 +23,7 @@
 				border-radius: 10px;
 				position: absolute;
 				top: 0;
-				background: #2d3142;
+				background: #ffead0;
 				bottom: 0;
 				margin: auto 0;
 				left: -35px;
@@ -34,21 +34,19 @@
 			margin: 0;
 			font-weight: 900;
 			line-height: 8.5rem;
-			-webkit-text-stroke: 3px #2d3142;
 			color: #ffead0;
 			text-transform: capitalize;
 			@include below-567 {
 				font-size: 4rem;
-				-webkit-text-stroke: 0px #2d3142;
-				color: #2d3142;
+				color: #ffead0 !important;
 				line-height: 5.5rem;
 			}
 			span {
-				-webkit-text-stroke: 0px #2d3142;
-				color: #2d3142;
+				-webkit-text-stroke: 0px #ffead0 !important;
+				color: #ffead0 !important;
 				@include below-567 {
-					-webkit-text-stroke: 3px #2d3142;
-					color: #ffe69a;
+					-webkit-text-stroke: 3px #ffead0 !important;
+					color: #2d3142 !important;
 				}
 			}
 		}

@@ -29,7 +29,7 @@
 }
 html,
 body {
-	background-color: #ffead0;
+	background-color: #2d3142;
 	padding: 0;
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
@@ -45,8 +45,11 @@ h3,
 h4,
 h5,
 h6 {
-	color: #2d3142;
+	color: #fff !important;
 	margin: 0px;
+}
+p {
+	color: #fff !important;
 }
 a {
 	color: inherit;
