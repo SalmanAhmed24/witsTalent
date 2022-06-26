@@ -1,7 +1,19 @@
 import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
 function About() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
-		<main className="about-wrap">
+		<main
+			className="about-wrap"
+			data-aos="fade-up"
+			data-aos-delay="50"
+			data-aos-duration="1000"
+			data-aos-easing="ease-in-out"
+			data-aos-mirror="true"
+			data-aos-once="false"
+		>
 			<h1>Join thousands of companies that trust StaffHunter to hire, pay and manage their global team</h1>
 			<p>
 				StaffHunter has everything you need to compliantly hire, pay and manage contractors and employees in 150

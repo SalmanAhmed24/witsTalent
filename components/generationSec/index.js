@@ -1,6 +1,19 @@
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
 function Generation() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
-		<main className="generationWrap">
+		<main
+			className="generationWrap"
+			data-aos="fade-right"
+			data-aos-delay="50"
+			data-aos-duration="1000"
+			data-aos-easing="ease-in-out"
+			data-aos-mirror="true"
+			data-aos-once="false"
+		>
 			<section className="gen-h-wrap">
 				<h1 className="gen-h">The new generation of media buying is here!</h1>
 				<p>A complete team is assigned to you to make life easier with top quality service and results.</p>

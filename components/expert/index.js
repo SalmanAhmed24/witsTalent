@@ -1,6 +1,19 @@
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
 function Expert() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
-		<main className="expert-wrap">
+		<main
+			className="expert-wrap"
+			data-aos="fade-right"
+			data-aos-delay="50"
+			data-aos-duration="1000"
+			data-aos-easing="ease-in-out"
+			data-aos-mirror="true"
+			data-aos-once="false"
+		>
 			<section className="content-wrap">
 				<h1>We are funnel experts in our industry!</h1>
 				<h4>JUST ASK REYHAN KHAN OUR CEO!</h4>
