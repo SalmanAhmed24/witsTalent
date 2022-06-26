@@ -9,6 +9,9 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		@include below-420 {
+			padding: 1rem 2rem;
+		}
 		@include below-992 {
 			width: 100%;
 			padding-right: 6rem;

@@ -3,6 +3,9 @@
 	flex-wrap: wrap;
 	background-color: #2d3142;
 	padding: 8rem 6rem;
+	@include below-420 {
+		padding: 1rem 2rem;
+	}
 	.content-wrap {
 		width: 50%;
 		display: flex;
@@ -45,8 +48,8 @@
 				-webkit-text-stroke: 0px #ffead0 !important;
 				color: #ffead0 !important;
 				@include below-567 {
-					-webkit-text-stroke: 3px #ffead0 !important;
-					color: #2d3142 !important;
+					-webkit-text-stroke: 0px #ffead0 !important;
+					color: #ffead0 !important;
 				}
 			}
 		}

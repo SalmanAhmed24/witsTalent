@@ -3,6 +3,9 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	@include below-420 {
+		padding: 1rem 2rem;
+	}
 	.gen-h-wrap {
 		width: 100%;
 		.gen-h {
@@ -14,10 +17,16 @@
 			@include below-567 {
 				font-size: 3.5rem;
 			}
+			@include below-420 {
+				text-align: left;
+			}
 		}
 		p {
 			font-size: 2rem;
 			text-align: center;
+			@include below-420 {
+				text-align: left;
+			}
 		}
 	}
 	.gen-col-wrap {

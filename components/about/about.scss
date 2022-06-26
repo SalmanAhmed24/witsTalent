@@ -1,5 +1,8 @@
 .about-wrap {
 	padding: 8rem 6rem 6rem 6rem;
+	@include below-420 {
+		padding: 1rem 2rem;
+	}
 	h1 {
 		font-size: 4.5rem;
 		text-align: center;
@@ -10,12 +13,18 @@
 		@include below-567 {
 			font-size: 3.5rem;
 		}
+		@include below-420 {
+			text-align: left;
+		}
 	}
 	p {
 		font-size: 2rem;
 		font-weight: 300;
 		color: #000;
 		text-align: center;
+		@include below-420 {
+			text-align: left;
+		}
 	}
 }
 .companies-wrap {
@@ -25,6 +34,9 @@
 		flex-wrap: wrap;
 		list-style: none;
 		justify-content: space-between;
+		@include below-420 {
+			padding: 0px;
+		}
 		li {
 			background-color: rgba(255, 255, 255, 0.8);
 			padding: 5px 15px;
@@ -35,6 +47,9 @@
 			align-items: center;
 			@include below-567 {
 				width: 50%;
+			}
+			@include below-420 {
+				padding: 5px 0px;
 			}
 			@include below-420 {
 				width: 100%;
