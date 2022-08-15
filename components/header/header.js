@@ -17,7 +17,12 @@ function Header() {
 				<h1>
 					Connect Silicon Valley Companies With <span>Top 1%</span> Talent
 				</h1>
-				<button>Book a call</button>
+				<a
+					target="_blank"
+					href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
+				>
+					Book a call
+				</a>
 			</motion.section>
 			<motion.section
 				initial="hidden"

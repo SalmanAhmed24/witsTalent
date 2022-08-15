@@ -14,6 +14,7 @@ function Results() {
 			data-aos-easing="ease-in-out"
 			data-aos-mirror="true"
 			data-aos-once="false"
+			id="proc"
 		>
 			<section className="heading-wrap">
 				<h1>We Will Take Care Of The Results</h1>
@@ -42,7 +43,12 @@ function Results() {
 				</div>
 			</section>
 			<div className="btn-call-wrap">
-				<button>Book a Free call</button>
+				<a
+					target="_blank"
+					href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
+				>
+					Book a free call
+				</a>
 			</div>
 		</main>
 	);

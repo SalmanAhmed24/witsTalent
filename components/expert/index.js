@@ -13,6 +13,7 @@ function Expert() {
 			data-aos-easing="ease-in-out"
 			data-aos-mirror="true"
 			data-aos-once="false"
+			id="contact"
 		>
 			<section className="content-wrap">
 				<h1>We are funnel experts in our industry!</h1>
@@ -23,7 +24,12 @@ function Expert() {
 					Adaptive Strategies. He has also played almost every sport in the book, but Cristiano Ronaldo is his
 					idol. I guess you could say that Reyhan has a Ronaldoesque impact on our team as well
 				</p>
-				<button>Book a free call now</button>
+				<a
+					target="_blank"
+					href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
+				>
+					Book a free call
+				</a>
 			</section>
 			<section className="img-wrap">
 				<img src="images/reyhan-blob.png" />

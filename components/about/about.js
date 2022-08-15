@@ -13,6 +13,7 @@ function About() {
 			data-aos-easing="ease-in-out"
 			data-aos-mirror="true"
 			data-aos-once="false"
+			id="about"
 		>
 			<h1>Join thousands of companies that trust StaffHunter to hire, pay and manage their global team</h1>
 			<p>

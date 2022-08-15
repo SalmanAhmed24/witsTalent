@@ -7,21 +7,18 @@
 	.logo-wrap {
 		width: 20%;
 		display: flex;
-		h1 {
-			font-size: 4rem;
-			font-weight: 700;
-			margin: 0px;
-			color: #ffead0;
-			span {
-				-webkit-text-stroke: 1px #ffead0;
-				color: #fff;
-			}
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		img {
+			width: 80%;
 		}
 	}
 	.navbar-link-wrap {
 		display: flex;
 		width: 60%;
 		justify-content: center;
+		margin-top: 2rem;
 		@include below-992 {
 			display: none;
 		}
@@ -105,7 +102,7 @@
 				}
 			}
 		}
-		button {
+		a {
 			font-size: 1.8rem;
 			font-weight: 600;
 			text-transform: capitalize;
@@ -137,14 +134,11 @@
 	.logo-wrap {
 		width: 20%;
 		display: flex;
-		h1 {
-			font-size: 3rem;
-			font-weight: 700;
-			margin: 0px;
-			span {
-				-webkit-text-stroke: 1px #ffead0;
-				color: #fff;
-			}
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		img {
+			width: 80%;
 		}
 	}
 	.navbar-link-wrap {
@@ -157,7 +151,7 @@
 			display: flex;
 			flex-direction: row;
 			list-style: none;
-			align-self: center;
+			align-self: flex-end;
 			margin: 0;
 			li {
 				font-size: 1.6rem;
@@ -225,7 +219,7 @@
 				}
 			}
 		}
-		button {
+		a {
 			font-size: 1.6rem;
 			font-weight: 600;
 			text-transform: capitalize;
@@ -234,7 +228,7 @@
 			color: #fff;
 			border: 1px solid #909cc2;
 			border-radius: 5px;
-			align-self: center;
+			align-self: flex-end;
 			padding: 5px 20px;
 			&:hover {
 				cursor: pointer;

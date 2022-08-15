@@ -13,6 +13,7 @@ function Generation() {
 			data-aos-easing="ease-in-out"
 			data-aos-mirror="true"
 			data-aos-once="false"
+			id="ser"
 		>
 			<section className="gen-h-wrap">
 				<h1 className="gen-h">The new generation of media buying is here!</h1>

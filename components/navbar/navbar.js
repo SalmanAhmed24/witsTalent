@@ -32,9 +32,7 @@ function Navbar() {
 				}}
 				className="logo-wrap"
 			>
-				<h1 className="logo">
-					Staff<span>Hunter.</span>
-				</h1>
+				<img src="./images/logo.png" className="logo" />
 			</motion.section>
 			<section className="navbar-link-wrap">
 				<ul>
@@ -46,7 +44,7 @@ function Navbar() {
 							visible: { opacity: 1, y: 0, transition: { delay: 0.6, ease: 'easeInOut' } }
 						}}
 					>
-						Services
+						<a href="#ser">Services</a>
 					</motion.li>
 					<motion.li
 						initial="hidden"
@@ -56,7 +54,7 @@ function Navbar() {
 							visible: { opacity: 1, y: 0, transition: { delay: 0.65, ease: 'easeInOut' } }
 						}}
 					>
-						Process
+						<a href="#proc">Process</a>
 					</motion.li>
 					<motion.li
 						initial="hidden"
@@ -66,7 +64,7 @@ function Navbar() {
 							visible: { opacity: 1, y: 0, transition: { delay: 0.7, ease: 'easeInOut' } }
 						}}
 					>
-						About Us
+						<a href="#about">About Us</a>
 					</motion.li>
 					<motion.li
 						initial="hidden"
@@ -76,7 +74,7 @@ function Navbar() {
 							visible: { opacity: 1, y: 0, transition: { delay: 0.75, ease: 'easeInOut' } }
 						}}
 					>
-						Contact Us
+						<a href="#contact">Contact Us</a>
 					</motion.li>
 				</ul>
 			</section>
@@ -90,7 +88,12 @@ function Navbar() {
 				className="navbar-btn-wrap"
 			>
 				{/* <p>Login</p> */}
-				<button>Book a call</button>
+				<a
+					target="_blank"
+					href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
+				>
+					Book a call
+				</a>
 			</motion.section>
 			<section className="toggleWrap">
 				<MenuIcon className="toggle" onClick={toggleDrawer} sx={{ fontSize: 30 }} />
@@ -107,7 +110,12 @@ function Navbar() {
 				</ul>
 				<section className="navbar-btn-wrap-inner">
 					{/* <p>Login</p> */}
-					<button>Book A Call</button>
+					<a
+						target="_blank"
+						href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
+					>
+						Book a call
+					</a>
 				</section>
 			</Drawer>
 		</nav>
