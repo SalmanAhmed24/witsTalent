@@ -25,7 +25,7 @@ function Expert() {
 					idol. I guess you could say that Reyhan has a Ronaldoesque impact on our team as well
 				</p>
 				<a
-					target="_blank"
+					rel="noreferrer"
 					href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
 				>
 					Book a free call

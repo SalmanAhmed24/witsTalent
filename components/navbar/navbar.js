@@ -89,7 +89,7 @@ function Navbar() {
 			>
 				{/* <p>Login</p> */}
 				<a
-					target="_blank"
+					rel="noreferrer"
 					href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
 				>
 					Book a call
@@ -111,7 +111,7 @@ function Navbar() {
 				<section className="navbar-btn-wrap-inner">
 					{/* <p>Login</p> */}
 					<a
-						target="_blank"
+						rel="noreferrer"
 						href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
 					>
 						Book a call

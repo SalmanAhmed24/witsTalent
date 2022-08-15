@@ -18,7 +18,7 @@ function Header() {
 					Connect Silicon Valley Companies With <span>Top 1%</span> Talent
 				</h1>
 				<a
-					target="_blank"
+					rel="noreferrer"
 					href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
 				>
 					Book a call
