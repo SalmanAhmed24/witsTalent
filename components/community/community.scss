@@ -1,0 +1,66 @@
+.community-Wrap{
+    padding: 8rem 6rem 6rem 6rem;
+	@include below-420 {
+		padding: 1rem 2rem;
+	}
+    .comm-h-wrap{
+        width: 100%;
+        h1 {
+            font-size: 4.5rem;
+            text-align: center;
+            margin: 0;
+            color: #2d3142;
+            font-weight: 900;
+            margin-bottom: 3rem;
+            @include below-567 {
+                font-size: 3.5rem;
+            }
+            @include below-420 {
+                text-align: left;
+            }
+        }
+    }
+}
+.comm-col-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        .comm-card{
+            width: 49%;
+            max-width: 550px;
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 5px #a2a2a2;
+            background: rgba(144,156,194,0.4);
+            backdrop-filter: blur(5px);
+            @include below-992{
+               width: 100%;
+               margin:15px 0px;
+            }
+                h1{
+                    font-size: 3rem;
+                    margin-bottom: 0px;
+                    
+                }
+                p{
+                    font-weight: regular;
+                    font-size: 1.8rem;
+                    margin: 0px 0px 10px 0px;
+                }
+                button{
+                    transition: 0.3s ease-in-out;
+                    background-color: #fff;
+                    border:1px solid #fff;
+                    color: #909cc2;
+                    font-size: 1.8rem;
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: transparent;
+                            color: #fff;
+                        }
+                }
+        }
+}
