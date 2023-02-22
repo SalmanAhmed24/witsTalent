@@ -15,11 +15,6 @@ function Community() {
       data-aos-once="false"
       id="ser"
     >
-      <section className="comm-h-wrap">
-        <h1 className="comm-h">
-          Connecting right talent with right opportunities
-        </h1>
-      </section>
       <section className="comm-col-wrap">
         <div className="comm-card">
           <h1 className="card-h">Individual</h1>

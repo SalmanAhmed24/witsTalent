@@ -22,11 +22,11 @@ export default function Home() {
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <Header />
-      <About />
-      <Generation />
-      <Results />
+      {/* <About /> */}
+      {/* <Generation /> */}
+      {/* <Results /> */}
       <Community />
-      <Expert />
+      {/* <Expert /> */}
     </div>
   );
 }
