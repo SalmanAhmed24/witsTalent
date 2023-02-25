@@ -4,7 +4,9 @@ import Drawer from "@mui/material/Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
 import { fontSize } from "@mui/system";
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 function Navbar() {
+  const router = useRouter();
   const [scrollPosition, setScrollPosition] = useState(0);
   const [drawerFlag, setDrawerFlag] = useState(false);
   const handleScroll = () => {
@@ -20,6 +22,11 @@ function Navbar() {
   }, []);
   const toggleDrawer = () => {
     setDrawerFlag(!drawerFlag);
+  };
+  const handleNav = (e) => {
+    if (e.target.innerText == "ABOUT US") {
+      router.push("/about");
+    }
   };
   return (
     <nav
@@ -41,7 +48,7 @@ function Navbar() {
         <img src="./images/logo.png" className="logo" />
       </motion.section>
       <section className="navbar-link-wrap">
-        <ul>
+        <ul onClick={handleNav}>
           {/* <motion.li
             initial="hidden"
             animate="visible"

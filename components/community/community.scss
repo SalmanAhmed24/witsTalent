@@ -44,8 +44,13 @@
                 }
                 p{
                     font-weight: regular;
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                     margin: 0px 0px 10px 0px;
+                        span{
+                            display: block;
+                            font-weight: bold;
+                            margin-bottom: 10px;
+                        }
                 }
                 button{
                     transition: 0.3s ease-in-out;
