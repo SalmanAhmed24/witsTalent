@@ -45,7 +45,11 @@ function Navbar() {
         }}
         className="logo-wrap"
       >
-        <img src="./images/logo.png" className="logo" />
+        <img
+          onClick={() => router.push("/")}
+          src="./images/logo.png"
+          className="logo"
+        />
       </motion.section>
       <section className="navbar-link-wrap">
         <ul onClick={handleNav}>
@@ -101,7 +105,7 @@ function Navbar() {
               },
             }}
           >
-            <a href="#about">About Us</a>
+            About Us
           </motion.li>
           {/* <motion.li
             initial="hidden"

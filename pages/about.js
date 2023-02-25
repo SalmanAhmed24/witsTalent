@@ -38,7 +38,6 @@ function AboutUs() {
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="false"
-        id="about"
       >
         <header className="about-page-header">
           <section className="about-page-call-action">
@@ -94,7 +93,15 @@ function AboutUs() {
             <Image src={AboutImage} alt="About Us" width={570} />
           </section>
         </header>
-        <section className="time-section">
+        <section
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="time-section"
+        >
           <div className="bg-time">
             <Image src={Clock} width={250} height={250} />
           </div>
@@ -107,7 +114,15 @@ function AboutUs() {
             </p>
           </div>
         </section>
-        <section className="office-section">
+        <section
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="office-section"
+        >
           <div className="text-office-wrap">
             <p>
               We are keen on building long-term relationships and making the

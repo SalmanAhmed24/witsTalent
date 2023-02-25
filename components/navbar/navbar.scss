@@ -12,6 +12,9 @@
 		align-items: center;
 		img {
 			width: 80%;
+			&:hover{
+				cursor: pointer;
+			}
 		}
 	}
 	.navbar-link-wrap {
