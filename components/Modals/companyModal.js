@@ -38,7 +38,7 @@ function CompanyModal({ open, handleClose }) {
       headers: { "content-type": "Multipart/form-data" },
     };
     axios
-      .post("http://localhost:3000/api/company", formData, config)
+      .post("https://staffhunter.io/api/company", formData, config)
       .then((res) => console.log(res))
       .catch((error) => console.log(error));
   };

@@ -26,7 +26,7 @@ function IndividualModal({ open, handleClose }) {
       headers: { "content-type": "Multipart/form-data" },
     };
     axios
-      .post("http://localhost:3000/api/individual", formData, config)
+      .post("https://staffhunter.io/api/individual", formData, config)
       .then((res) => console.log(res))
       .catch((error) => console.log(error));
   };
