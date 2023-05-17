@@ -46,8 +46,6 @@ function CompanyModal({ open, handleClose }) {
             icon: "success",
             title: "Thanks...",
             text: "We received your email. We will get back to you asap.",
-            zIndex: 22222,
-            fontSize: 18,
           }).then((result) => {
             if (result.isConfirmed) {
               handleClose();
