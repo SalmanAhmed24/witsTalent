@@ -7,16 +7,16 @@ function IndividualModal({ open, handleClose }) {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [file, setFile] = useState({});
+  const [loadingFlag, setLoadingFlag] = useState(false);
 
   const handleName = (e) => setName(e.target.value);
   const handleEmail = (e) => setEmail(e.target.value);
   const handlePhone = (e) => setPhone(e.target.value);
   const fileHandler = (e) => {
-    console.log("this is called");
-    console.log("this is file", e.target.files[0]);
     setFile(e.target.files[0]);
   };
   const handleIndForm = (e) => {
+    setLoadingFlag(true);
     e.preventDefault();
     var formData = new FormData();
     formData.append("f_name", name);
@@ -30,6 +30,7 @@ function IndividualModal({ open, handleClose }) {
       .post("https://www.staffhunter.io/api/individual", formData, config)
       .then((res) => {
         if (res.status == 200) {
+          setLoadingFlag(false);
           Swal.fire({
             icon: "success",
             title: "Thanks...",
@@ -41,7 +42,10 @@ function IndividualModal({ open, handleClose }) {
           });
         }
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error);
+        setLoadingFlag(false);
+      });
   };
   return (
     <Modal className="individualModalWrap" open={open}>
@@ -83,7 +87,11 @@ function IndividualModal({ open, handleClose }) {
             name="resume"
             placeholder="Upload Resume"
           />
-          <input type="submit" value="Send" className="buttonSend" />
+          <input
+            type="submit"
+            value={loadingFlag ? "Wait...." : "Send"}
+            className="buttonSend"
+          />
         </form>
       </div>
     </Modal>

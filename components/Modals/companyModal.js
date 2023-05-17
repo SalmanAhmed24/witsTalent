@@ -8,6 +8,7 @@ function CompanyModal({ open, handleClose }) {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [file, setFile] = useState({});
+  const [loadingFlag, setLoadingFlag] = useState(false);
   const [hiringOpt, setHiringOpt] = useState({
     label: "Customer Success",
     value: "Customer Success",
@@ -29,6 +30,7 @@ function CompanyModal({ open, handleClose }) {
   const handlePhone = (e) => setPhone(e.target.value);
   const dropDownHandler = (value) => setHiringOpt(value);
   const handleIndForm = (e) => {
+    setLoadingFlag(true);
     e.preventDefault();
     var formData = new FormData();
     formData.append("f_name", name);
@@ -42,6 +44,7 @@ function CompanyModal({ open, handleClose }) {
       .post("https://www.staffhunter.io/api/company", formData, config)
       .then((res) => {
         if (res.status == 200) {
+          setLoadingFlag(false);
           Swal.fire({
             icon: "success",
             title: "Thanks...",
@@ -53,7 +56,10 @@ function CompanyModal({ open, handleClose }) {
           });
         }
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error);
+        setLoadingFlag(false);
+      });
   };
   return (
     <Modal className="individualModalWrap" open={open}>
@@ -95,7 +101,11 @@ function CompanyModal({ open, handleClose }) {
             className="custom-dropdown"
             value={hiringOpt}
           />
-          <input type="submit" value="Send" className="buttonSend" />
+          <input
+            type="submit"
+            value={loadingFlag ? "Wait...." : "Send"}
+            className="buttonSend"
+          />
         </form>
       </div>
     </Modal>
