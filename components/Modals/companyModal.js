@@ -2,6 +2,7 @@ import Modal from "@mui/material/Modal";
 import axios from "axios";
 import React, { useState } from "react";
 import Select from "react-select";
+import Swal from "sweetalert2";
 function CompanyModal({ open, handleClose }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -39,7 +40,15 @@ function CompanyModal({ open, handleClose }) {
     };
     axios
       .post("https://www.staffhunter.io/api/company", formData, config)
-      .then((res) => console.log(res))
+      .then((res) => {
+        if (res.status == 200) {
+          Swal.fire({
+            icon: "success",
+            title: "Thanks...",
+            text: "We received your email. We will get back to you asap.",
+          });
+        }
+      })
       .catch((error) => console.log(error));
   };
   return (

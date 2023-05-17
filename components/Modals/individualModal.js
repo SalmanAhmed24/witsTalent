@@ -1,6 +1,7 @@
 import Modal from "@mui/material/Modal";
 import axios from "axios";
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 function IndividualModal({ open, handleClose }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -27,7 +28,15 @@ function IndividualModal({ open, handleClose }) {
     };
     axios
       .post("https://www.staffhunter.io/api/individual", formData, config)
-      .then((res) => console.log(res))
+      .then((res) => {
+        if (res.status == 200) {
+          Swal.fire({
+            icon: "success",
+            title: "Thanks...",
+            text: "We received your email. We will get back to you asap.",
+          });
+        }
+      })
       .catch((error) => console.log(error));
   };
   return (
