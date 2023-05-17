@@ -40,7 +40,7 @@ function IndividualModal({ open, handleClose }) {
         <form
           className="ind-form-main"
           method="post"
-          enctype="multipart/form-data"
+          encType="multipart/form-data"
           onSubmit={handleIndForm}
         >
           <input
