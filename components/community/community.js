@@ -1,6 +1,17 @@
 import React, { useState, useEffect } from "react";
 import AOS from "aos";
+import IndividualModal from "../Modals/individualModal";
+import CompanyModal from "../Modals/companyModal";
+
 function Community() {
+  const [individualFlag, setIndividualFlag] = useState(false);
+  const [companyFlag, setCompanyFlag] = useState(false);
+  const toggleModal = () => {
+    setIndividualFlag(!individualFlag);
+  };
+  const toggleCompModal = () => {
+    setCompanyFlag(!companyFlag);
+  };
   useEffect(() => {
     AOS.init();
   }, []);
@@ -29,7 +40,9 @@ function Community() {
             across a range of industries. Whether you&apos;re a seasoned pro or
             just starting out, we have something for everyone
           </p>
-          <button className="card-btn">Get started as an Individual</button>
+          <button onClick={toggleModal} className="card-btn">
+            Get started as an Individual
+          </button>
         </div>
         <div className="comm-card">
           <h1 className="card-h">Companies</h1>
@@ -43,9 +56,17 @@ function Community() {
             fit for your company. Plus, we make it easy to calculate your net
             salary and get detailed information about potential candidates.
           </p>
-          <button className="card-btn">Get started as a company</button>
+          <button className="card-btn" onClick={toggleCompModal}>
+            Get started as a company
+          </button>
         </div>
       </section>
+      {individualFlag ? (
+        <IndividualModal open={individualFlag} handleClose={toggleModal} />
+      ) : null}
+      {companyFlag ? (
+        <CompanyModal open={companyFlag} handleClose={toggleCompModal} />
+      ) : null}
     </main>
   );
 }

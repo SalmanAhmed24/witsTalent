@@ -1,0 +1,50 @@
+.individualModalWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        .content-wrap{
+            min-width: 320px;
+            max-width: 500px;
+            width: 50%;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #fff;
+            padding: 5px 20px;
+            h1{
+                color: #000 !important;
+                text-align: center;
+                font-size: 32px;
+            }
+                .closeInd{
+                    font-size: 22px;
+                    color: #000 !important;
+                    text-align: right;
+                    transition: 0.3s ease-in-out;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                }
+                .ind-form-main{
+                    display: flex;
+                    flex-direction: column;
+                        input{
+                            padding:7px 10px;
+                            border-radius: 5px;
+                            margin: 10px 0px;
+                            border: 1px solid #a2a2a2;
+                        }
+                }
+                .buttonSend{
+                    background: #000;
+                    border: 1px solid #000;
+                    transition: 0.3s ease-in-out;
+                    color: #fff;
+                        &:hover{
+                            cursor: pointer;
+                            background: #fff;
+                            color: #000;
+                        }
+                }
+        }
+}
