@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function Pricing() {
   return (
     <section className="pricing-con">
-      <h1 className="mainheading">Upfront Pricing</h1>
+      <h1 className="mainheading">3 Roles</h1>
       <div className="pricing-card-wrap">
         <div className="card-wrap">
           <h1 className="card-heading">Media Buying Assistant</h1>
