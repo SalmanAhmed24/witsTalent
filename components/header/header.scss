@@ -2,35 +2,17 @@
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #022D36;
-	padding: 1rem 6rem;
+	padding: 12rem 6rem;
 	@include below-420 {
 		padding: 1rem 2rem;
 	}
 	.content-wrap {
-		width: 50%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		@include below-992 {
 			width: 100%;
-		}
-		h3 {
-			font-size: 3rem;
-			font-weight: 500;
-			position: relative;
-			margin: 0;
-			&::before {
-				content: '';
-				width: 30px;
-				height: 5px;
-				border-radius: 10px;
-				position: absolute;
-				top: 0;
-				background: #ffead0;
-				bottom: 0;
-				margin: auto 0;
-				left: -35px;
-			}
 		}
 		h1 {
 			font-size: 6rem;
@@ -39,6 +21,7 @@
 			line-height: 7rem;
 			color: #ffead0;
 			text-transform: capitalize;
+			text-align: center;
 			@include below-567 {
 				font-size: 4rem;
 				color: #ffead0 !important;
@@ -57,7 +40,7 @@
 		}
 		a {
 			margin-top: 2rem;
-			align-self: flex-start;
+			align-self: center;
 			padding: 5px 20px;
 			font-size: 2rem;
 			font-weight: 400;

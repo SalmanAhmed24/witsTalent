@@ -24,7 +24,7 @@ function Header() {
           Want to build a Winning Team for your Agency?
         </a>
       </motion.section>
-      <motion.section
+      {/* <motion.section
         initial="hidden"
         animate="visible"
         variants={{
@@ -34,7 +34,7 @@ function Header() {
         className="hero-img-wrap"
       >
         <img src="./images/reyhan-ai.png" />
-      </motion.section>
+      </motion.section> */}
     </header>
   );
 }
