@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	background-color: #2d3142;
+	background-color: #022D36;
 	.logo-wrap {
 		width: 20%;
 		display: flex;
@@ -21,7 +21,7 @@
 		display: flex;
 		width: 58%;
 		justify-content: flex-end;
-		margin-top: 2rem;
+		margin-top: 0rem;
 		padding-right: 30px;
 		@include below-992 {
 			display: none;
@@ -111,9 +111,9 @@
 			font-weight: 600;
 			text-transform: capitalize;
 			transition: 0.3s ease-in-out;
-			background: #909cc2;
+			background: #000;
 			color: #fff;
-			border: 1px solid #909cc2;
+			border: 1px solid #000;
 			border-radius: 5px;
 			align-self: center;
 			padding: 5px 20px;
@@ -123,7 +123,7 @@
 			&:hover {
 				cursor: pointer;
 				background-color: #fff;
-				color: #909cc2;
+				color: #19232a;
 			}
 		}
 	}
@@ -228,16 +228,16 @@
 			font-weight: 600;
 			text-transform: capitalize;
 			transition: 0.3s ease-in-out;
-			background: #909cc2;
+			background: #000;
 			color: #fff;
-			border: 1px solid #909cc2;
+			border: 1px solid #000;
 			border-radius: 5px;
 			align-self: flex-end;
 			padding: 5px 20px;
 			&:hover {
 				cursor: pointer;
 				background-color: #fff;
-				color: #909cc2;
+				color: #000;
 			}
 		}
 	}
@@ -252,7 +252,7 @@
 }
 .scroll-navbar {
 	position: fixed;
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.35);
 	width: 100%;
 	backdrop-filter: blur(10px);
 	box-shadow: 0 5px 5px #a2a2a2;

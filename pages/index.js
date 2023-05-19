@@ -5,6 +5,9 @@ import Expert from "../components/expert";
 import Generation from "../components/generationSec";
 import Header from "../components/header/header";
 import Results from "../components/results";
+import HowItWorks from "../components/howItWorks";
+import Pricing from "../components/pricing";
+import Calendly from "../components/calandly";
 export default function Home() {
   return (
     <div>
@@ -22,11 +25,10 @@ export default function Home() {
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <Header />
-      {/* <About /> */}
-      {/* <Generation /> */}
-      {/* <Results /> */}
+      <HowItWorks />
+      <Pricing />
+      <Calendly />
       <Community />
-      {/* <Expert /> */}
     </div>
   );
 }

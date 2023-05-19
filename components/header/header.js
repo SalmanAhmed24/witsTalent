@@ -13,15 +13,15 @@ function Header() {
         }}
         className="content-wrap"
       >
-        <h3>Welcome</h3>
         <h1>
-          Connecting Right Talent with the <span>Right Opportunities</span>
+          Scaling Digital Marketing Agencies Through
+          <span>Strategic Recruitment</span>
         </h1>
         <a
           rel="noreferrer"
           href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
         >
-          Looking to hire and learn more about our services?
+          Want to build a Winning Team for your Agency?
         </a>
       </motion.section>
       <motion.section
@@ -33,7 +33,7 @@ function Header() {
         }}
         className="hero-img-wrap"
       >
-        <img src="./images/hero.png" />
+        <img src="./images/reyhan-ai.png" />
       </motion.section>
     </header>
   );

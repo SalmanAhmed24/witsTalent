@@ -27,7 +27,7 @@ function Community() {
       id="ser"
     >
       <section className="comm-col-wrap">
-        <div className="comm-card">
+        {/* <div className="comm-card">
           <h1 className="card-h">Individual</h1>
           <p className="card-p">
             <span>
@@ -43,7 +43,7 @@ function Community() {
           <button onClick={toggleModal} className="card-btn">
             Get started as an Individual
           </button>
-        </div>
+        </div> */}
         <div className="comm-card">
           <h1 className="card-h">Companies</h1>
           <p className="card-p">

@@ -1,8 +1,8 @@
 .header-wrap {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #2d3142;
-	padding: 8rem 6rem;
+	background-color: #022D36;
+	padding: 1rem 6rem;
 	@include below-420 {
 		padding: 1rem 2rem;
 	}
@@ -33,10 +33,10 @@
 			}
 		}
 		h1 {
-			font-size: 7rem;
+			font-size: 6rem;
 			margin: 0;
 			font-weight: 900;
-			line-height: 8.5rem;
+			line-height: 7rem;
 			color: #ffead0;
 			text-transform: capitalize;
 			@include below-567 {
@@ -45,6 +45,8 @@
 				line-height: 5.5rem;
 			}
 			span {
+				display: inline-block;
+				margin-left: 5px;
 				-webkit-text-stroke: 0px #ffead0 !important;
 				color: #ffead0 !important;
 				@include below-567 {
@@ -59,11 +61,11 @@
 			padding: 5px 20px;
 			font-size: 2rem;
 			font-weight: 400;
-			background-color: #909cc2;
+			background-color: #000;
 			color: #fff;
 			transition: 0.3s ease-in-out;
 			border-radius: 5px;
-			border: 1px solid #909cc2;
+			border: 1px solid #000;
 			&:hover {
 				cursor: pointer;
 				transform: rotate(-3deg);
@@ -80,7 +82,8 @@
 			display: none;
 		}
 		img {
-			width: 80%;
+			width: 90%;
+			border-radius: 50%;
 		}
 	}
 }

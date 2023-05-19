@@ -1,0 +1,89 @@
+.pricing-con{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../public/images/bg-how.png');
+    background-position-x: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @include below-420 {
+		padding: 1rem 2rem;
+	}
+    .mainheading{
+        font-size: 64px;
+        color:#19232a !important;
+    }
+    .pricing-card-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        .card-wrap{
+            background-color:#fff;
+            box-shadow: 0 0 15px #a2a2a2;           
+            border-radius: 10px;
+            margin-right: 20px;
+            transition: 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            width: 380px;
+            padding: 30px 20px;
+            margin:15px 20px 15px 0px;
+            &:last-child{
+                margin-right: 0px;
+            }
+            .card-heading{
+                text-align: center;
+                font-size: 24px;
+                margin-bottom: 0px;
+                color: #19232a !important;
+            }
+            .sub-text{
+                text-align: center;
+                font-size: 14px;
+                color: #000 !important;
+                margin: 0px;
+                margin-bottom: 10px;
+            }
+            h3{
+                color: #000 !important;
+                font-size: 14px;
+                font-weight: 600;
+                display: flex;
+                margin: 5px 0px;
+            }
+            span{
+                display: inline-block !important;
+                margin-right: 10px !important;
+                align-self: center;
+            }
+            ul{
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.price-card-btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+        .btnLink{
+            border:1px solid #000;
+            text-decoration: none;
+            border-radius: 50px;
+            padding: 7px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            background-color: #fff;
+            color: #000 !important;
+            transition: 0.3s ease-in-out;
+                &:hover{
+                    background-color: #000;
+                    color: #fff !important;
+                }
+        }
+}

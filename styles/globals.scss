@@ -29,7 +29,7 @@
 html,
 body {
 	overflow-x: hidden;
-	background-color: #2d3142;
+	background-color: #fff;
 	padding: 0;
 	margin: 0;
 	scroll-behavior: smooth;
@@ -59,6 +59,10 @@ a {
 * {
 	box-sizing: border-box;
 }
+.calendly-inline-widget{
+	height: 700px !important;
+	overflow: hidden
+}
 @import '../components/navbar/navbar.scss';
 @import '../components/header/header.scss';
 @import '../components/about/about.scss';
@@ -68,3 +72,6 @@ a {
 @import '../components/results/results.scss';
 @import './aboutPage.scss';
 @import './individualModal.scss';
+@import '../components/howItWorks/howItWorks.scss';
+@import '../components/pricing/pricing.scss';
+@import '../components/calandly/calendly.scss'

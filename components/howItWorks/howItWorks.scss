@@ -1,0 +1,52 @@
+.how-it-works-wrap{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	background-color: #fff;
+	padding: 3rem 6rem;
+	@include below-420 {
+		padding: 1rem 2rem;
+	}
+    h1{
+        font-size: 64px;
+        color: #19232a !important;
+    }
+    .icon-wraps{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+            .single-icon-con{
+                width: 250px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                margin: 0px 20px;
+                &:hover{
+                    
+                        img{
+                            transform: scale(0.95);
+                        }
+                    
+                }
+                    h2{
+                        font-size: 20px;
+                        text-align: center;
+                        margin-top: 20px;
+        color: #19232a !important;
+
+                    }
+                    p{
+                        text-align: center;
+                        font-size: 14px;
+        color: #19232a !important;
+
+                    }
+                    img{
+                        transition: 0.3s ease-in-out;
+                    }
+            }
+    }
+}
