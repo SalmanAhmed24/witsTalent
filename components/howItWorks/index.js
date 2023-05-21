@@ -9,8 +9,9 @@ function HowItWorks() {
           <Image src="/images/phone.png" alt="icon" width={100} height={100} />
           <h2>Discovery Call</h2>
           <p>
-            We get your candidate requirements and send you a customized job
-            description. This automatically triggers our vetting process.
+            We get your candidate requirements into our system which
+            automatically triggers our vetting process. Our team starts sending
+            you screened profiles within the next 48 hours.
           </p>
         </div>
         <div className="single-icon-con">
@@ -20,10 +21,12 @@ function HowItWorks() {
             width={100}
             height={100}
           />
-          <h2>Interview</h2>
+          <h2>WHO Interview</h2>
           <p>
-            We present pre-vetted candidates handpicked for your needs with a
-            90%+ approval rate.
+            We conduct 2 interviews for you, the Initial Screener and the WHO
+            interview. WHO is a proven screening method where candidates are
+            interviewed against a Scorecard to forecast their compatibility with
+            your requirements.
           </p>
         </div>
         <div className="single-icon-con">
@@ -35,16 +38,18 @@ function HowItWorks() {
           />
           <h2>On-Boarding</h2>
           <p>
-            Our world-class onboarding process where we introduce you to your
-            very own customer support representative.
+            We Onboard the Employees on your systems and set KPIs for Weeks 1 to
+            4. Our Onboarding templates are Compatible with Asana, Trello,
+            ClickUp and Monday.com.
           </p>
         </div>
         <div className="single-icon-con">
           <Image src="/images/growth.png" alt="icon" width={100} height={100} />
-          <h2>Step Back & Grow</h2>
+          <h2>Sit Back & Scale</h2>
           <p>
-            Your Agency Future Leader starts hitting the benchmarks set for you.
-            It&apos;s time to grow the team!
+            Our Talent turns into your agency&apos;s Future Leader and starts
+            hitting the benchmarks set for you. It&apos;s time to scale the
+            business!
           </p>
         </div>
       </div>

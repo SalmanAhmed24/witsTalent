@@ -45,16 +45,15 @@ function Community() {
           </button>
         </div> */}
         <div className="comm-card">
-          <h1 className="card-h">Companies</h1>
+          <h1 className="card-h">Proven Talent at 70% Less Cost.</h1>
           <p className="card-p">
-            <span>Connecting You with the Right Talent at 50% Less Cost.</span>
-            Are you looking for the right talent to join your team? Look no
-            further than our platform! We specialize in connecting employers
-            with top-notch talent whether it&apos;s remote or in-house at a
-            fraction of the cost. Our platform offers a wide range of job
-            opportunities across various industries, so you can find the perfect
-            fit for your company. Plus, we make it easy to calculate your net
-            salary and get detailed information about potential candidates.
+            <span>That&apos;s 70% Less on Hiring Cost & Monthly Salaries.</span>
+            Staff Hunter is equipping Digital Marketing Agencies across the
+            world with proven and screened talent at a guaranteed 70% less
+            monthly cost. That means your monthly staff cost will be halved when
+            hiring from our talent pool. So if you&apos;re looking to scale your
+            agency, we&apos;ll make sure you do it while staying within your
+            budget.
           </p>
           <button className="card-btn" onClick={toggleCompModal}>
             Get started as a company

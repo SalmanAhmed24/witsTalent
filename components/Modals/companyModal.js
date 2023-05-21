@@ -10,19 +10,13 @@ function CompanyModal({ open, handleClose }) {
   const [file, setFile] = useState({});
   const [loadingFlag, setLoadingFlag] = useState(false);
   const [hiringOpt, setHiringOpt] = useState({
-    label: "Customer Success",
-    value: "Customer Success",
+    label: "Marketing Assistant",
+    value: "Marketing Assistant",
   });
   const hiringDropOpt = [
-    { value: "Customer Success", label: "Customer Success" },
-    { value: "Operations", label: "Operations" },
-    { value: "Admin Assistance", label: "Admin Assistance" },
-    { value: "Software Development", label: "Software Development" },
-    { value: "Media Buying", label: "Media Buying" },
-    { value: "Customer Support", label: "Customer Support" },
-    { value: "Sales", label: "Sales" },
-    { value: "Business Development", label: "Business Development" },
-    { value: "Marketing", label: "Marketing" },
+    { value: "Marketing Assistant", label: "Marketing Assistant" },
+    { value: "Sales Development Rep", label: "Sales Development Rep" },
+    { value: "Account Manager", label: "Account Manager" },
     { value: "Other", label: "Other" },
   ];
   const handleName = (e) => setName(e.target.value);

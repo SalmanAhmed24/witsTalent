@@ -89,7 +89,7 @@ function Navbar() {
           >
             <a href="#proc">Process</a>
           </motion.li> */}
-          <motion.li
+          {/* <motion.li
             initial="hidden"
             animate="visible"
             variants={{
@@ -106,7 +106,7 @@ function Navbar() {
             }}
           >
             About Us
-          </motion.li>
+          </motion.li> */}
           {/* <motion.li
             initial="hidden"
             animate="visible"
@@ -167,7 +167,7 @@ function Navbar() {
         <ul className="drawer-list">
           {/* <li>Services</li>
           <li>Process</li> */}
-          <li>About Us</li>
+          {/* <li>About Us</li> */}
           {/* <li>Contact Us</li> */}
         </ul>
         <section className="navbar-btn-wrap-inner">

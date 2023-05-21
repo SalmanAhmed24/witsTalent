@@ -11,12 +11,18 @@
     h1{
         font-size: 64px;
         color: #19232a !important;
+            @include below-567{
+                font-size: 32px;
+            }
     }
     .icon-wraps{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 30px;
+        @include below-992{
+            justify-content: center;
+        }
             .single-icon-con{
                 width: 250px;
                 display: flex;
@@ -24,6 +30,9 @@
                 justify-content: flex-start;
                 align-items: center;
                 margin: 0px 20px;
+                @include below-992{
+                    margin: 0px;
+                }
                 &:hover{
                     
                         img{

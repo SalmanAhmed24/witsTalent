@@ -8,6 +8,7 @@ import Results from "../components/results";
 import HowItWorks from "../components/howItWorks";
 import Pricing from "../components/pricing";
 import Calendly from "../components/calandly";
+import CarouselComp from "../components/carousel/carousel";
 export default function Home() {
   return (
     <div>
@@ -27,6 +28,7 @@ export default function Home() {
       <Header />
       <HowItWorks />
       <Pricing />
+      <CarouselComp />
       <Calendly />
       <Community />
     </div>

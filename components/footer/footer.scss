@@ -1,0 +1,84 @@
+.footer-con{
+    display: flex;
+    background-color: #022D36;
+    padding: 6rem 6rem;
+        @include below-992{
+            flex-wrap: wrap;
+        }
+        .address-col{
+            min-width: 320px;
+            width: 55%;
+            margin-right: 10px;
+                @include below-567{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    margin-right: 0px;
+                }
+                .address{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    margin-top: 20px;
+                        img{
+                            width: 50px;
+                            margin-right: 10px;
+                            align-self: center;
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                }
+        }
+        .main-social{
+            min-width: 320px;
+            width: 20%;
+            margin-right: 10px;
+                @include below-567{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    margin-right: 0px;
+                }
+                .social-wrap{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    margin-top: 20px;
+                    a{
+                        margin-right: 10px;
+                        &:last-child{
+                            margin-right: 0px;
+                        }
+                        img{
+                            width: 50px;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+        }
+        .call-wrap{
+            min-width: 320px;
+            width: 20%;
+            margin-right: 10px;
+                @include below-567{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    margin-right: 0px;
+                }
+                .call-inner-wrap{
+                    p{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                            span{
+                                display: inline-block;
+                                margin-right: 10px;
+                                    img{
+                                        width: 40px;
+                                    }
+                            }
+                            a{
+                                font-size: 18px;
+                            }
+                    }
+                }
+        }
+}
