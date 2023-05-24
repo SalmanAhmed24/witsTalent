@@ -20,7 +20,6 @@ function Footer() {
         </div>
       </div>
       <div className="main-social">
-        <h1>Social Links:</h1>
         <div className="social-wrap">
           <a href="https://www.linkedin.com/company/staffhunter/">
             <img src="/images/linkedin.png" alt="LinkedIn" />

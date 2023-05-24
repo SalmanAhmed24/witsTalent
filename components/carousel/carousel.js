@@ -10,6 +10,7 @@ function CarouselComp() {
         infiniteLoop={true}
         showThumbs={false}
         showStatus={false}
+        interval={6000}
       >
         {/* <div className="testimonial-item">
           <div className="testmonial-card">

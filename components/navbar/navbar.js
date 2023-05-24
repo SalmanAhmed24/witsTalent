@@ -145,7 +145,7 @@ function Navbar() {
           rel="noreferrer"
           href="https://calendly.com/staffhunter/slc-consulting-discovery-call?back=1&month=2023-05"
         >
-          Looking for a job?
+          Hunt here!
         </a>
       </motion.section>
       <section className="toggleWrap">
@@ -176,7 +176,7 @@ function Navbar() {
             rel="noreferrer"
             href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
           >
-            Looking for a job?
+            Hunt here!
           </a>
         </section>
       </Drawer>

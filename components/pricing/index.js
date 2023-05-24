@@ -75,7 +75,7 @@ function Pricing() {
             <Image src="/images/done.png" width={12} height={16} alt="~" /> Pre
             Entry Level Managers
           </h3>
-          <h3>
+          <h3 style={{ marginBottom: "30px" }}>
             <Image src="/images/done.png" width={12} height={16} alt="~" /> Pre
             Pre trained Digital Marketers*
           </h3>
