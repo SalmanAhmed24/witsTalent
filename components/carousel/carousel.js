@@ -11,7 +11,7 @@ function CarouselComp() {
         showThumbs={false}
         showStatus={false}
       >
-        <div className="testimonial-item">
+        {/* <div className="testimonial-item">
           <div className="testmonial-card">
             <div className="img-wrap">
               <img
@@ -40,7 +40,7 @@ function CarouselComp() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="testimonial-item">
           <div className="testmonial-card">
             <div className="img-wrap">
