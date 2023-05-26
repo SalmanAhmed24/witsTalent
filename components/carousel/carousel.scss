@@ -78,3 +78,13 @@
 		padding: 1rem 2rem;
 	}
 }
+.test-carousel{
+        height: 360px;
+        .carousel{
+            height: 340px;
+            .control-dots{
+                bottom: -10px;
+            }
+        }
+    
+}

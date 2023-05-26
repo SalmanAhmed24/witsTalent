@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function Pricing() {
   return (
     <section className="pricing-con">
-      <h1 className="mainheading">3 Roles</h1>
+      <h1 className="mainheading">4 Roles</h1>
       <div className="pricing-card-wrap">
         <div className="card-wrap">
           <h1 className="card-heading">Marketing Assistant</h1>
@@ -63,22 +63,15 @@ function Pricing() {
               Handling Payment Processers like Stripe or Wave
             </li>
           </ul>
-          <h3>
-            <Image src="/images/done.png" width={12} height={16} alt="~" />
-            Excellent Leadership Qualities
-          </h3>
-          <h3>
+
+          <h3 style={{ marginBottom: "30px" }}>
             <Image src="/images/done.png" width={12} height={16} alt="~" /> Pre
             Launch and Manage Podcasts/Webinars
           </h3>
-          <h3>
-            <Image src="/images/done.png" width={12} height={16} alt="~" /> Pre
-            Entry Level Managers
-          </h3>
-          <h3 style={{ marginBottom: "30px" }}>
-            <Image src="/images/done.png" width={12} height={16} alt="~" /> Pre
-            Pre trained Digital Marketers*
-          </h3>
+          <h3 className="cus-sol-h">** Customized Solution **</h3>
+          <p className="italic-p">
+            Tell us what you need and we&apos;ll hunt for those qualities!
+          </p>
           <div className="price-card-btn">
             <a href="#calendly" className="btnLink">
               Get Started
@@ -119,24 +112,16 @@ function Pricing() {
           </h3>
           <h3>
             <Image src="/images/done.png" width={12} height={16} alt="~" />
-            Capable of Setting Comp Structure for Others
-          </h3>
-          <h3>
-            <Image src="/images/done.png" width={12} height={16} alt="~" />
-            Strong Interpersonal Skills
-          </h3>
-          <h3>
-            <Image src="/images/done.png" width={12} height={16} alt="~" />
             Strong Communication Skills
           </h3>
           <h3>
             <Image src="/images/done.png" width={12} height={16} alt="~" />
             Relationship Building Skills
           </h3>
-          <h3>
-            <Image src="/images/done.png" width={12} height={16} alt="~" /> Pre
-            trained Digital Marketers*
-          </h3>
+          <h3 className="cus-sol-h">** Customized Solution **</h3>
+          <p className="italic-p">
+            Tell us what you need and we&apos;ll hunt for those qualities!
+          </p>
           <div className="price-card-btn">
             <a href="#calendly" className="btnLink">
               Get Started
@@ -168,24 +153,79 @@ function Pricing() {
           </ul>
           <h3>
             <Image src="/images/done.png" width={12} height={16} alt="~" />
-            Culturally Fit
-          </h3>
-          <h3>
-            <Image src="/images/done.png" width={12} height={16} alt="~" />
             Project Management
           </h3>
           <h3>
             <Image src="/images/done.png" width={12} height={16} alt="~" />
             Team Management
           </h3>
+          <h3 className="cus-sol-h">** Customized Solution **</h3>
+          <p className="italic-p">
+            Tell us what you need and we&apos;ll hunt for those qualities!
+          </p>
+          <div className="price-card-btn">
+            <a href="#calendly" className="btnLink">
+              Get Started
+            </a>
+          </div>
+        </div>
+        <div className="card-wrap">
+          <h1 className="card-heading">Video Editor</h1>
+          <p className="sub-text">Pre trained Digital Marketers*</p>
           <h3>
             <Image src="/images/done.png" width={12} height={16} alt="~" />
-            Perfect English, both spoken and
+            Video Storytelling
+          </h3>
+          <ul className="pricing-list">
+            <li className="price-items">
+              Proficient in video editing software and tools
+            </li>
+            <li className="price-items">Color Correction and Grading</li>
+          </ul>
+          <h3>
+            <Image src="/images/done.png" width={12} height={16} alt="~" />
+            Audio Editing
+          </h3>
+          <ul className="pricing-list">
+            <li className="price-items">Audio manipulation</li>
+            <li className="price-items">Synchronization</li>
+            <li className="price-items">Mixing</li>
+          </ul>
+          <h3>
+            <Image src="/images/done.png" width={12} height={16} alt="~" />
+            Project ManagementMotion Graphics
+          </h3>
+          <ul className="pricing-list">
+            <li className="price-items">Graphical elements</li>
+            <li className="price-items">Text overlays</li>
+            <li className="price-items">Animations</li>
+          </ul>
+          <h3>
+            <Image src="/images/done.png" width={12} height={16} alt="~" />
+            Video Compression and Export Time Management
+          </h3>
+          <ul className="pricing-list">
+            <li className="price-items">Meet deadlines</li>
+            <li className="price-items">
+              Manage multiple video editing projects simultaneously.
+            </li>
+          </ul>
+          <h3>
+            <Image src="/images/done.png" width={12} height={16} alt="~" />
+            Transitions and Effects
           </h3>
           <h3>
-            <Image src="/images/done.png" width={12} height={16} alt="~" /> Pre
-            trained Digital Marketers*
+            <Image src="/images/done.png" width={12} height={16} alt="~" />
+            Collaboration
           </h3>
+          <h3>
+            <Image src="/images/done.png" width={12} height={16} alt="~" />
+            Creative Thinking
+          </h3>
+          <h3 className="cus-sol-h">** Customized Solution **</h3>
+          <p className="italic-p">
+            Tell us what you need and we&apos;ll hunt for those qualities!
+          </p>
           <div className="price-card-btn">
             <a href="#calendly" className="btnLink">
               Get Started

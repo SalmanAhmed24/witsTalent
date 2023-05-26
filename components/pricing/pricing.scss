@@ -29,7 +29,7 @@
             transition: 0.3s ease-in-out;
             display: flex;
             flex-direction: column;
-            width: 380px;
+            width: 300px;
             padding: 30px 20px;
             margin:15px 20px 15px 0px;
             position: relative;
@@ -41,7 +41,7 @@
             }
             .card-heading{
                 text-align: center;
-                font-size: 24px;
+                font-size: 20px;
                 margin-bottom: 0px;
                 color: #19232a !important;
             }
@@ -96,4 +96,14 @@
                     color: #fff !important;
                 }
         }
+}
+.cus-sol-h{
+    font-size: 16px !important;
+}
+.italic-p{
+    font-size: 16px;
+    color: #000 !important;
+    padding-top: 0px;
+    margin: 0px;
+    margin-bottom: 40px;
 }
