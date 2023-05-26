@@ -80,8 +80,14 @@
 }
 .test-carousel{
         height: 360px;
+        @include below-992{
+            height: auto;
+        }
         .carousel{
             height: 340px;
+            @include below-992{
+                height: auto;
+            }
             .control-dots{
                 bottom: -10px;
             }

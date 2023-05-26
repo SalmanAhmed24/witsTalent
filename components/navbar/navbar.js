@@ -141,11 +141,8 @@ function Navbar() {
         className="navbar-btn-wrap"
       >
         {/* <p>Login</p> */}
-        <a
-          rel="noreferrer"
-          href="https://calendly.com/staffhunter/slc-consulting-discovery-call?back=1&month=2023-05"
-        >
-          Hunt here!
+        <a rel="noreferrer" href="https://www.calendly.com/staffhunter">
+          Start Staffing Now
         </a>
       </motion.section>
       <section className="toggleWrap">
@@ -172,11 +169,8 @@ function Navbar() {
         </ul>
         <section className="navbar-btn-wrap-inner">
           {/* <p>Login</p> */}
-          <a
-            rel="noreferrer"
-            href="https://calendly.com/reyhankhan/slc-consulting-discovery-call?back=1&month=2022-08"
-          >
-            Hunt here!
+          <a rel="noreferrer" href="https://www.calendly.com/staffhunter">
+            Start Staffing Now
           </a>
         </section>
       </Drawer>
