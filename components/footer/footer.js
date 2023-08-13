@@ -21,10 +21,6 @@ function Footer() {
       </div>
       <div className="main-social">
         <div className="social-wrap">
-          <a href="https://www.linkedin.com/company/staffhunter/">
-            <img src="/images/linkedin.png" alt="LinkedIn" />
-          </a>
-
           <WhatsAppWidget
             CompanyIcon={WhatsappIcon}
             phoneNumber="+351910585160"
@@ -48,6 +44,13 @@ function Footer() {
             <a href="tel:+351910585160">+351 910 585 160</a>
           </p>
         </div>
+        <h1>Social Links</h1>
+        <a
+          className="social-linkedIn"
+          href="https://www.linkedin.com/company/staffhunter/"
+        >
+          <img src="/images/linkedin.png" alt="LinkedIn" />
+        </a>
       </div>
     </footer>
   );

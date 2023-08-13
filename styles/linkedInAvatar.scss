@@ -1,0 +1,89 @@
+.linkedIn-main-wrap{
+    height: 400px;
+    padding: 100px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        h1{
+            font-size: 48px;
+            color: #000 !important;
+            text-align: center;
+            width: 80%;
+        }
+        p{
+            font-weight: 300;
+            font-size: 18px;
+            color: #000 !important;
+            text-align: center;
+            width: 100%;
+        }
+}
+.linkedIn-cards-wrap{
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+        .single-card{
+            width: 40%;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #cfcfcf;
+            padding: 20px;
+                .card-h{
+                    text-align: center;
+                    color: #000 !important;
+                    font-size: 30px;
+                    line-height: normal;
+                }
+                .card-sub-h{
+                    text-align: center;
+                    color: #a2a2a2 !important;
+                    font-size: 20px;
+                    font-style: italic;
+                    margin: 0px;
+                    margin-bottom: 15px;
+                }
+                .money-h{
+                    font-size: 48px;
+                    color: #022D36 !important;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                        span{
+                            color: #a2a2a2 !important;
+                            font-size: 16px;
+                            font-weight: 300;
+                            align-self: center;
+                        }
+                }
+                .price-list{
+                    list-style: none;
+                    width: 90%;
+                    align-self: center;
+                        li{
+                            font-size: 16px;
+                            margin-bottom: 10px;
+                        }
+                }
+                button{
+                    align-self: center;
+                    background-color: #022D36;
+                    border: 1px solid #022D36;
+                    border-radius: 30px;
+                    font-size: 16px;
+                    padding: 10px 20px;
+                    color: #fff !important;
+                    transition: 0.3s ease-in-out;
+                        &:hover{
+                            background-color: #fff;
+                            cursor: pointer;
+                            color: #022D36 !important;
+                        }
+                }
+        }
+}

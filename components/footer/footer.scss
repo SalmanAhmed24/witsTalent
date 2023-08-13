@@ -7,7 +7,7 @@
         }
         .address-col{
             min-width: 320px;
-            width: 55%;
+            width: 50%;
             margin-right: 10px;
                 @include below-567{
                     width: 100%;
@@ -29,34 +29,9 @@
                         }
                 }
         }
-        .main-social{
-            min-width: 320px;
-            width: 20%;
-            margin-right: 10px;
-                @include below-567{
-                    width: 100%;
-                    margin-bottom: 10px;
-                    margin-right: 0px;
-                }
-                .social-wrap{
-                    display: flex;
-                    flex-wrap: nowrap;
-                    margin-top: 20px;
-                    a{
-                        margin-right: 10px;
-                        &:last-child{
-                            margin-right: 0px;
-                        }
-                        img{
-                            width: 50px;
-                            margin-right: 20px;
-                        }
-                    }
-                }
-        }
         .call-wrap{
             min-width: 320px;
-            width: 20%;
+            width: 50%;
             margin-right: 10px;
                 @include below-567{
                     width: 100%;
@@ -79,6 +54,9 @@
                                 font-size: 18px;
                             }
                     }
+                }
+                .social-linkedIn{
+                    img{width: 40px;}
                 }
         }
 }

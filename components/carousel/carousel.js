@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 function CarouselComp() {
   return (
     <section className="carousel-wrap">
-      <h1 className="testimonial-h">What Our Client Say&apos;s</h1>
+      <h1 className="testimonial-h">What Our Clients Say</h1>
       <Carousel
         showIndicators={true}
         autoPlay={true}
@@ -17,7 +17,7 @@ function CarouselComp() {
           <div className="testmonial-card">
             <div className="img-wrap">
               <img
-                src="https://media.licdn.com/dms/image/C4D03AQGiT6HDeiMf-A/profile-displayphoto-shrink_800_800/0/1612337634419?e=2147483647&v=beta&t=8E8-1VhERnejZyd7UzhB7plJlhLNBVGA9one6A8jtL0"
+                src={"/images/mike.jpg"}
                 alt="Avatar"
                 className="image-avatar"
               />

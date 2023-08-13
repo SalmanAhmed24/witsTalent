@@ -4,6 +4,10 @@ function Pricing() {
   return (
     <section className="pricing-con">
       <h1 className="mainheading">4 Roles</h1>
+      <h3 className="cus-sol-h">** Customized Solution **</h3>
+      <p className="italic-p">
+        Tell us what you need and we&apos;ll hunt for those qualities!
+      </p>
       <div className="pricing-card-wrap">
         <div className="card-wrap">
           <h1 className="card-heading">Marketing Assistant</h1>
@@ -68,10 +72,6 @@ function Pricing() {
             <Image src="/images/done.png" width={12} height={16} alt="~" /> Pre
             Launch and Manage Podcasts/Webinars
           </h3>
-          <h3 className="cus-sol-h">** Customized Solution **</h3>
-          <p className="italic-p">
-            Tell us what you need and we&apos;ll hunt for those qualities!
-          </p>
           <div className="price-card-btn">
             <a href="#calendly" className="btnLink">
               Get Started
@@ -118,10 +118,6 @@ function Pricing() {
             <Image src="/images/done.png" width={12} height={16} alt="~" />
             Relationship Building Skills
           </h3>
-          <h3 className="cus-sol-h">** Customized Solution **</h3>
-          <p className="italic-p">
-            Tell us what you need and we&apos;ll hunt for those qualities!
-          </p>
           <div className="price-card-btn">
             <a href="#calendly" className="btnLink">
               Get Started
@@ -159,10 +155,6 @@ function Pricing() {
             <Image src="/images/done.png" width={12} height={16} alt="~" />
             Team Management
           </h3>
-          <h3 className="cus-sol-h">** Customized Solution **</h3>
-          <p className="italic-p">
-            Tell us what you need and we&apos;ll hunt for those qualities!
-          </p>
           <div className="price-card-btn">
             <a href="#calendly" className="btnLink">
               Get Started
@@ -222,10 +214,6 @@ function Pricing() {
             <Image src="/images/done.png" width={12} height={16} alt="~" />
             Creative Thinking
           </h3>
-          <h3 className="cus-sol-h">** Customized Solution **</h3>
-          <p className="italic-p">
-            Tell us what you need and we&apos;ll hunt for those qualities!
-          </p>
           <div className="price-card-btn">
             <a href="#calendly" className="btnLink">
               Get Started

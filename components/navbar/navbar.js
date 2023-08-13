@@ -5,6 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { fontSize } from "@mui/system";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import Link from "next/link";
 function Navbar() {
   const router = useRouter();
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -24,8 +25,8 @@ function Navbar() {
     setDrawerFlag(!drawerFlag);
   };
   const handleNav = (e) => {
-    if (e.target.innerText == "ABOUT US") {
-      router.push("/about");
+    if (e.target.innerText == "LinkedIn Avatars") {
+      router.push("/linkedInAvatar");
     }
   };
   return (
@@ -53,7 +54,7 @@ function Navbar() {
       </motion.section>
       <section className="navbar-link-wrap">
         <ul onClick={handleNav}>
-          {/* <motion.li
+          <motion.li
             initial="hidden"
             animate="visible"
             variants={{
@@ -69,8 +70,8 @@ function Navbar() {
               },
             }}
           >
-            <a href="#ser">Services</a>
-          </motion.li> */}
+            LinkedIn Avatars
+          </motion.li>
           {/* <motion.li
             initial="hidden"
             animate="visible"
@@ -161,9 +162,9 @@ function Navbar() {
         <p className="close" onClick={toggleDrawer}>
           x
         </p>
-        <ul className="drawer-list">
-          {/* <li>Services</li>
-          <li>Process</li> */}
+        <ul className="drawer-list" onClick={handleNav}>
+          <li>LinkedIn Avatars</li>
+          {/* <li>Process</li> */}
           {/* <li>About Us</li> */}
           {/* <li>Contact Us</li> */}
         </ul>
