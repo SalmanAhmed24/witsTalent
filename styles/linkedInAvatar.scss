@@ -5,11 +5,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include below-992{
+        padding: 30px 10px;
+    }
+    
         h1{
             font-size: 48px;
             color: #000 !important;
             text-align: center;
             width: 80%;
+            @include below-992{
+                width: 100%;
+                font-size: 30px;
+            }
         }
         p{
             font-weight: 300;
@@ -17,6 +25,10 @@
             color: #000 !important;
             text-align: center;
             width: 100%;
+            @include below-992{
+                
+                font-size: 16px;
+            }
         }
 }
 .linkedIn-cards-wrap{
@@ -25,6 +37,9 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    @include below-992{
+        padding: 20px;
+    }
         .single-card{
             width: 40%;
             margin: 20px;
@@ -33,11 +48,17 @@
             border-radius: 10px;
             box-shadow: 0 0 15px #cfcfcf;
             padding: 20px;
+            @include below-992{
+                width: 100%;
+            }
                 .card-h{
                     text-align: center;
                     color: #000 !important;
                     font-size: 30px;
                     line-height: normal;
+                    @include below-992{
+                        font-size: 20px;
+                    }
                 }
                 .card-sub-h{
                     text-align: center;
@@ -46,6 +67,9 @@
                     font-style: italic;
                     margin: 0px;
                     margin-bottom: 15px;
+                    @include below-992{
+                        font-size: 16px;
+                    }
                 }
                 .money-h{
                     font-size: 48px;
@@ -54,20 +78,32 @@
                     text-align: center;
                     display: flex;
                     justify-content: center;
+                    @include below-992{
+                        font-size: 40px;
+                    }
                         span{
                             color: #a2a2a2 !important;
                             font-size: 16px;
                             font-weight: 300;
                             align-self: center;
+                            @include below-992{
+                                font-size: 12px;
+                            }
                         }
                 }
                 .price-list{
                     list-style: none;
                     width: 90%;
                     align-self: center;
+                    @include below-992{
+                        width: 100%;
+                    }
                         li{
                             font-size: 16px;
                             margin-bottom: 10px;
+                            @include below-992{
+                                font-size: 14px;
+                            }
                         }
                 }
                 button{
