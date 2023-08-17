@@ -66,7 +66,9 @@ function LinkedInAvatar() {
               <span>&#10003;</span> Specify present job title
             </li>
           </ul>
-          <button className="order-now">Order Today</button>
+          <div className="order-btn-wrap">
+            <button className="order-now">Order Today</button>
+          </div>
         </div>
         <div className="single-card">
           <h1 className="card-h">Premium Avatar</h1>
@@ -114,7 +116,9 @@ function LinkedInAvatar() {
               <span>&#10003;</span> Specify present job title
             </li>
           </ul>
-          <button className="order-now">Order Today</button>
+          <div className="order-btn-wrap">
+            <button className="order-now">Order Today</button>
+          </div>
         </div>
       </section>
     </section>
