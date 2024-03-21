@@ -142,7 +142,10 @@ function Navbar() {
         className="navbar-btn-wrap"
       >
         {/* <p>Login</p> */}
-        <a rel="noreferrer" href="https://www.calendly.com/staffhunter">
+        <a
+          rel="noreferrer"
+          href="https://calendly.com/outboundleads/slc-consulting-discovery-call"
+        >
           Start Staffing Now
         </a>
       </motion.section>
@@ -170,7 +173,10 @@ function Navbar() {
         </ul>
         <section className="navbar-btn-wrap-inner">
           {/* <p>Login</p> */}
-          <a rel="noreferrer" href="https://www.calendly.com/staffhunter">
+          <a
+            rel="noreferrer"
+            href="https://calendly.com/outboundleads/slc-consulting-discovery-call"
+          >
             Start Staffing Now
           </a>
         </section>

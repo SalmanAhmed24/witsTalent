@@ -35,7 +35,7 @@ function Header() {
         </Carousel>
         <a
           rel="noreferrer"
-          href="https://calendly.com/staffhunter/slc-consulting-discovery-call?back=1&month=2023-05"
+          href="https://calendly.com/outboundleads/slc-consulting-discovery-call"
         >
           Let&apos;s do an ROI Analysis?!
         </a>

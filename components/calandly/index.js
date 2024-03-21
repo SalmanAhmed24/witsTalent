@@ -6,13 +6,14 @@ function Calendly() {
       <h1 className="calendly-h">Book a FREE Strategy Session</h1>
       <div
         className="calendly-inline-widget"
-        data-url="https://calendly.com/staffhunter/slc-consulting-discovery-call"
+        data-url="https://calendly.com/outboundleads"
+        style={{ minWidth: "320px", height: "700px" }}
       ></div>
-      <Script
+      <script
         type="text/javascript"
         src="https://assets.calendly.com/assets/external/widget.js"
         async
-      />
+      ></script>
     </section>
   );
 }
